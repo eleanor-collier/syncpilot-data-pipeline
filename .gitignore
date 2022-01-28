@@ -1,0 +1,11 @@
+
+old/
+process_baseline_data.r
+get_empAcc.r
+get_sonix_transcriptions.ipynb
+get_text_vividness/DAAP09/
+get_text_vividness/DAAP11/
+get_prosody/test_data_features/
+get_prosody/train_data_features/
+get_prosody/train_data_labels/
+get_prosody/rate_testing_data_ML.r

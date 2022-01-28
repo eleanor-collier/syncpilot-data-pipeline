@@ -1,0 +1,214 @@
+﻿<defaults>
+/ screencolor = (0, 0, 0)
+/ fontstyle = ("Avenir", 3%)
+/ txbgcolor = (0, 0, 0)
+/ txcolor = (255, 255, 255)
+</defaults>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	DATA
+**************************************************************************************************************
+**************************************************************************************************************
+<data>
+/ columns = (date, time, subject, blocknum, blockcode, trialnum, trialcode, latency, values.timeofrating, 
+	expressions.valence_rating, expressions.videoindex expressions.videoname)
+/ separatefiles = true
+</data>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	INSTRUCTIONS
+**************************************************************************************************************
+**************************************************************************************************************
+<instruct>
+/ nextlabel = "continue"
+/ prevlabel = "go back"
+/ txcolor = (255, 255, 255)
+/ screencolor = (0, 0, 0)
+/ inputdevice = mouse
+/ windowsize = (100%,100%)
+</instruct>
+
+<page instruct1>
+^^
+^^
+^^
+^^
+^^				In the following task, you will be asked to rate each speaker's
+^				EMOTIONAL AROUSAL during every moment of their story. You 
+^				won't be able to hear the words, so do your best to base your 
+^				judgments off of their voice alone.
+</page>
+
+<page instruct2>
+^^
+^^
+^^
+^^
+^^				As a reminder, arousal is defined as the state of being activated,
+^				regardless of how positive or negative a person feels. Psychological
+^				characteristics of arousal include feelings of vigor, energy, and 
+^				tension.
+</page>
+
+<page instruct3>
+^^
+^^
+^^
+^^
+^^				Make sure the volume on your computer is turned up as high as
+^				it can go!
+</page>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	EXPRESSIONS & VALUES
+**************************************************************************************************************
+**************************************************************************************************************
+<expressions>
+/ valence_rating = (text.slider_indicator.hposition-text.low.hposition)/values.slider_spacing
+/ videoindex = video.disclosure.currentindex
+/ videoname = video.disclosure.currentitem
+</expressions>
+
+<values>
+// CUSTOMIZABLE VALUES
+/ max_recording_time = 180000 // Length of disclosure recordings
+/ scale_max = 50 // Maximum value of rating scale (must be multiple of 5)
+// DO NOT CHANGE THESE VALUES; MAY CAUSE UNWANTED ISSUES
+/ scale_length = 50%
+/ scale_height = 0.4%
+/ slider_startposition = 50%
+/ slider_vposition = 87%
+/ slider_spacing = values.scale_length/values.scale_max
+/ labels_vposition = values.slider_vposition - 4%
+/ lowlabel_hposition = values.slider_startposition - values.scale_length/2
+/ midlabel_hposition = values.slider_startposition
+/ highlabel_hposition = values.slider_startposition + values.scale_length/2
+/ timeofrating = 0
+</values>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	STIMULI
+**************************************************************************************************************
+**************************************************************************************************************
+<text wait_text>
+/ items = ("Press ENTER when you are ready to begin the next recording")
+/ position = (50%, 50%)
+</text>
+
+<text valence_prompt>
+/ items = ("How was the SPEAKER FEELING at this moment of their experience?")
+/ position = (50%, 76%)
+/ erase = false
+</text>
+
+<shape scale>
+/ shape = rectangle
+/ color = (255,255,255)
+/ size = (values.scale_length,values.scale_height)
+/ position = (values.slider_startposition,values.slider_vposition)
+/ erase = false
+</shape>
+
+<text slider_indicator>
+/ items = ("|")
+/ position = (values.slider_startposition, values.slider_vposition)
+</text>
+
+<text low>
+/ items = ("Not at all aroused")
+/ position = (values.lowlabel_hposition, values.labels_vposition)
+/ erase = false
+</text>
+
+<text middle>
+/ items = ("Moderately aroused")
+/ position = (values.midlabel_hposition, values.labels_vposition)
+/ erase = false
+</text>
+
+<text high>
+/ items = ("As aroused as possible")
+/ position = (values.highlabel_hposition, values.labels_vposition)
+/ erase = false
+</text>
+
+<video disclosure>
+/ items = (
+	"P165_self_disclosure_neg1.wav"
+	"P173_self_disclosure_pos2.wav"
+	"P174_self_disclosure_neg2.wav"
+	"P176_self_disclosure_pos2.wav"
+	"P177_self_disclosure_pos1.wav"
+	)
+/ select = noreplace
+/ size = (50%, 50%)
+/ position = (50%, 45%)
+/ playthrough = true
+</video>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	TRIALS
+**************************************************************************************************************
+**************************************************************************************************************
+<trial valence>
+/ ontrialend = [if(trial.valence.response==203 && text.slider_indicator.hposition>text.low.hposition)
+    text.slider_indicator.hposition=text.slider_indicator.hposition-values.slider_spacing]
+/ ontrialend = [if(trial.valence.response==205 && text.slider_indicator.hposition<text.high.hposition)
+    text.slider_indicator.hposition=text.slider_indicator.hposition+values.slider_spacing]
+/ ontrialend = [values.timeofrating = block.listenblock.elapsedtime]
+/ stimulusframes = [1=low,middle,high,slider_indicator,scale,valence_prompt]
+/ validresponse = (203, 205)
+/ branch = [if (block.listenblock.elapsedtime<values.max_recording_time) trial.valence]
+/ timeout = 2000
+</trial>
+
+<trial wait>
+/ stimulusframes = [1=wait_text]
+/ validresponse = (28)
+/ recorddata = false
+</trial>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	BLOCKS
+**************************************************************************************************************
+**************************************************************************************************************
+<block listenblock>
+/ bgstim = (disclosure)
+/ trials = [1=valence]
+/ onblockbegin = [text.slider_indicator.hposition=values.slider_startposition]
+</block>
+
+<block wait>
+/ trials = [1=wait]
+</block>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	EXPERIMENT 
+**************************************************************************************************************
+**************************************************************************************************************
+<expt rate_self_disclosures>
+/ preinstructions = (instruct1, instruct2, instruct3)
+/ blocks = [
+	1=wait;
+	2=listenblock; 
+	3=wait; 
+	4=listenblock; 
+	5=wait; 
+	6=listenblock;
+	7=wait; 
+	8=listenblock;
+	9=wait; 
+	10=listenblock
+	]
+</expt>
+
+**************************************************************************************************************
+                                             END OF FILE
+**************************************************************************************************************
