@@ -1,0 +1,90 @@
+Audio_April08_2009_segmented/Michael(b)/chopped/2sentence01.wav,./,Michael(b),April08_Michael(b)_2sentence01.txt
+Audio_April08_2009_segmented/Michael(b)/chopped/2sentence03_xx.wav,./,Michael(b),April08_Michael(b)_2sentence03_xx.txt
+Audio_April08_2009_segmented/Michael(b)/chopped/2sentence02.wav,./,Michael(b),April08_Michael(b)_2sentence02.txt
+Audio_April08_2009_segmented/Michael(b)/chopped/2sentence04_xx.wav,./,Michael(b),April08_Michael(b)_2sentence04_xx.txt
+Audio_April08_2009_segmented/Michael(b)/chopped/paraphrase01.wav,./,Michael(b),April08_Michael(b)_paraphrase01.txt
+Audio_April08_2009_segmented/Michael(b)/chopped/paraphrase02_xx.wav,./,Michael(b),April08_Michael(b)_paraphrase02_xx.txt
+Audio_April08_2009_segmented/Julia(a)/chopped/2sentence01.wav,./,Julia(a),April08_Julia(a)_2sentence01.txt
+Audio_April08_2009_segmented/Julia(a)/chopped/2sentence03_xx.wav,./,Julia(a),April08_Julia(a)_2sentence03_xx.txt
+Audio_April08_2009_segmented/Julia(a)/chopped/2sentence02.wav,./,Julia(a),April08_Julia(a)_2sentence02.txt
+Audio_April08_2009_segmented/Julia(a)/chopped/2sentence04_xx.wav,./,Julia(a),April08_Julia(a)_2sentence04_xx.txt
+Audio_April08_2009_segmented/Julia(a)/chopped/paraphrase01.wav,./,Julia(a),April08_Julia(a)_paraphrase01.txt
+Audio_April08_2009_segmented/Julia(a)/chopped/paraphrase02_xx.wav,./,Julia(a),April08_Julia(a)_paraphrase02_xx.txt
+Audio_April23_2009_segmented/Dan(b)/chopped/2sentence01.wav,./,Dan(b),April23_Dan(b)_2sentence01.txt
+Audio_April23_2009_segmented/Dan(b)/chopped/2sentence04.wav,./,Dan(b),April23_Dan(b)_2sentence04.txt
+Audio_April23_2009_segmented/Dan(b)/chopped/2sentence03.wav,./,Dan(b),April23_Dan(b)_2sentence03.txt
+Audio_April23_2009_segmented/Dan(b)/chopped/2sentence02.wav,./,Dan(b),April23_Dan(b)_2sentence02.txt
+Audio_April23_2009_segmented/Dan(b)/chopped/paraphrase02.wav,./,Dan(b),April23_Dan(b)_paraphrase02.txt
+Audio_April23_2009_segmented/Dan(b)/chopped/paraphrase01.wav,./,Dan(b),April23_Dan(b)_paraphrase01.txt
+Audio_April23_2009_segmented/Stephanie(a)/chopped/2sentence01.wav,./,Stephanie(a),April23_Stephanie(a)_2sentence01.txt
+Audio_April23_2009_segmented/Stephanie(a)/chopped/2sentence04.wav,./,Stephanie(a),April23_Stephanie(a)_2sentence04.txt
+Audio_April23_2009_segmented/Stephanie(a)/chopped/2sentence03.wav,./,Stephanie(a),April23_Stephanie(a)_2sentence03.txt
+Audio_April23_2009_segmented/Stephanie(a)/chopped/2sentence02.wav,./,Stephanie(a),April23_Stephanie(a)_2sentence02.txt
+Audio_April23_2009_segmented/Stephanie(a)/chopped/paraphrase02.wav,./,Stephanie(a),April23_Stephanie(a)_paraphrase02.txt
+Audio_April23_2009_segmented/Stephanie(a)/chopped/paraphrase01.wav,./,Stephanie(a),April23_Stephanie(a)_paraphrase01.txt
+Audio_April30_2009_segmented/Kylie (a)/chopped/2sentence01.wav,./,Kylie (a),April30_Kylie (a)_2sentence01.txt
+Audio_April30_2009_segmented/Kylie (a)/chopped/2sentence04.wav,./,Kylie (a),April30_Kylie (a)_2sentence04.txt
+Audio_April30_2009_segmented/Kylie (a)/chopped/2sentence03.wav,./,Kylie (a),April30_Kylie (a)_2sentence03.txt
+Audio_April30_2009_segmented/Kylie (a)/chopped/2sentence02.wav,./,Kylie (a),April30_Kylie (a)_2sentence02.txt
+Audio_April30_2009_segmented/Kylie (a)/chopped/paraphrase02.wav,./,Kylie (a),April30_Kylie (a)_paraphrase02.txt
+Audio_April30_2009_segmented/Kylie (a)/chopped/paraphrase01.wav,./,Kylie (a),April30_Kylie (a)_paraphrase01.txt
+Audio_April30_2009_segmented/Johnathan (b)/chopped/2sentence01.wav,./,Johnathan (b),April30_Johnathan (b)_2sentence01.txt
+Audio_April30_2009_segmented/Johnathan (b)/chopped/2sentence04.wav,./,Johnathan (b),April30_Johnathan (b)_2sentence04.txt
+Audio_April30_2009_segmented/Johnathan (b)/chopped/2sentence03.wav,./,Johnathan (b),April30_Johnathan (b)_2sentence03.txt
+Audio_April30_2009_segmented/Johnathan (b)/chopped/2sentence02.wav,./,Johnathan (b),April30_Johnathan (b)_2sentence02.txt
+Audio_April30_2009_segmented/Johnathan (b)/chopped/paraphrase02.wav,./,Johnathan (b),April30_Johnathan (b)_paraphrase02.txt
+Audio_April30_2009_segmented/Johnathan (b)/chopped/paraphrase01.wav,./,Johnathan (b),April30_Johnathan (b)_paraphrase01.txt
+Audio_March05_2009_segmented/Rina(a)/chopped/2sentence01.wav,./,Rina(a),March05_Rina(a)_2sentence01.txt
+Audio_March05_2009_segmented/Rina(a)/chopped/2sentence04.wav,./,Rina(a),March05_Rina(a)_2sentence04.txt
+Audio_March05_2009_segmented/Rina(a)/chopped/2sentence03.wav,./,Rina(a),March05_Rina(a)_2sentence03.txt
+Audio_March05_2009_segmented/Rina(a)/chopped/2sentence02.wav,./,Rina(a),March05_Rina(a)_2sentence02.txt
+Audio_March05_2009_segmented/Rina(a)/chopped/paraphrase02.wav,./,Rina(a),March05_Rina(a)_paraphrase02.txt
+Audio_March05_2009_segmented/Rina(a)/chopped/paraphrase01.wav,./,Rina(a),March05_Rina(a)_paraphrase01.txt
+Audio_March05_2009_segmented/Karan(b)/chopped/2sentence01.wav,./,Karan(b),March05_Karan(b)_2sentence01.txt
+Audio_March05_2009_segmented/Karan(b)/chopped/2sentence04.wav,./,Karan(b),March05_Karan(b)_2sentence04.txt
+Audio_March05_2009_segmented/Karan(b)/chopped/2sentence03.wav,./,Karan(b),March05_Karan(b)_2sentence03.txt
+Audio_March05_2009_segmented/Karan(b)/chopped/2sentence02.wav,./,Karan(b),March05_Karan(b)_2sentence02.txt
+Audio_March05_2009_segmented/Karan(b)/chopped/paraphrase02.wav,./,Karan(b),March05_Karan(b)_paraphrase02.txt
+Audio_March05_2009_segmented/Karan(b)/chopped/paraphrase01.wav,./,Karan(b),March05_Karan(b)_paraphrase01.txt
+Audio_May12_2009_segmented/Lisa(a)/chopped/paraphrase03.wav,./,Lisa(a),May12_Lisa(a)_paraphrase03.txt
+Audio_May12_2009_segmented/Lisa(a)/chopped/2sentence01.wav,./,Lisa(a),May12_Lisa(a)_2sentence01.txt
+Audio_May12_2009_segmented/Lisa(a)/chopped/2sentence04.wav,./,Lisa(a),May12_Lisa(a)_2sentence04.txt
+Audio_May12_2009_segmented/Lisa(a)/chopped/2sentence03.wav,./,Lisa(a),May12_Lisa(a)_2sentence03.txt
+Audio_May12_2009_segmented/Lisa(a)/chopped/2sentence02.wav,./,Lisa(a),May12_Lisa(a)_2sentence02.txt
+Audio_May12_2009_segmented/Lisa(a)/chopped/paraphrase02.wav,./,Lisa(a),May12_Lisa(a)_paraphrase02.txt
+Audio_May12_2009_segmented/Lisa(a)/chopped/paraphrase01.wav,./,Lisa(a),May12_Lisa(a)_paraphrase01.txt
+Audio_May12_2009_segmented/Sandy(b)/chopped/paraphrase03.wav,./,Sandy(b),May12_Sandy(b)_paraphrase03.txt
+Audio_May12_2009_segmented/Sandy(b)/chopped/2sentence01.wav,./,Sandy(b),May12_Sandy(b)_2sentence01.txt
+Audio_May12_2009_segmented/Sandy(b)/chopped/2sentence04.wav,./,Sandy(b),May12_Sandy(b)_2sentence04.txt
+Audio_May12_2009_segmented/Sandy(b)/chopped/2sentence03.wav,./,Sandy(b),May12_Sandy(b)_2sentence03.txt
+Audio_May12_2009_segmented/Sandy(b)/chopped/2sentence02.wav,./,Sandy(b),May12_Sandy(b)_2sentence02.txt
+Audio_May12_2009_segmented/Sandy(b)/chopped/paraphrase02.wav,./,Sandy(b),May12_Sandy(b)_paraphrase02.txt
+Audio_May12_2009_segmented/Sandy(b)/chopped/paraphrase01.wav,./,Sandy(b),May12_Sandy(b)_paraphrase01.txt
+Audio_May13_2009_segmented/Thomas (b)/chopped/2sentence01.wav,./,Thomas (b),May13_Thomas (b)_2sentence01.txt
+Audio_May13_2009_segmented/Thomas (b)/chopped/2sentence02.wav,./,Thomas (b),May13_Thomas (b)_2sentence02.txt
+Audio_May13_2009_segmented/Thomas (b)/chopped/paraphrase02.wav,./,Thomas (b),May13_Thomas (b)_paraphrase02.txt
+Audio_May13_2009_segmented/Thomas (b)/chopped/paraphrase01.wav,./,Thomas (b),May13_Thomas (b)_paraphrase01.txt
+Audio_May13_2009_segmented/Natalie (b)/chopped/2sentence04.wav,./,Natalie (b),May13_Natalie (b)_2sentence04.txt
+Audio_May13_2009_segmented/Natalie (b)/chopped/2sentence03.wav,./,Natalie (b),May13_Natalie (b)_2sentence03.txt
+Audio_May13_2009_segmented/Rachel (a)/chopped/2sentence01.wav,./,Rachel (a),May13_Rachel (a)_2sentence01.txt
+Audio_May13_2009_segmented/Rachel (a)/chopped/2sentence04.wav,./,Rachel (a),May13_Rachel (a)_2sentence04.txt
+Audio_May13_2009_segmented/Rachel (a)/chopped/2sentence03.wav,./,Rachel (a),May13_Rachel (a)_2sentence03.txt
+Audio_May13_2009_segmented/Rachel (a)/chopped/2sentence02.wav,./,Rachel (a),May13_Rachel (a)_2sentence02.txt
+Audio_May13_2009_segmented/Rachel (a)/chopped/paraphrase02.wav,./,Rachel (a),May13_Rachel (a)_paraphrase02.txt
+Audio_May13_2009_segmented/Rachel (a)/chopped/paraphrase01.wav,./,Rachel (a),May13_Rachel (a)_paraphrase01.txt
+Audio_May6_2009a_segmented/Mark-b/chopped/paraphrase01b.wav,./,Mark-b,May6_Mark-b_paraphrase01b.txt
+Audio_May6_2009a_segmented/Mark-b/chopped/2sentence02b.wav,./,Mark-b,May6_Mark-b_2sentence02b.txt
+Audio_May6_2009a_segmented/Mark-b/chopped/2sentence01b.wav,./,Mark-b,May6_Mark-b_2sentence01b.txt
+Audio_May6_2009a_segmented/Lexi-a/chopped/2sentence01a.wav,./,Lexi-a,May6_Lexi-a_2sentence01a.txt
+Audio_May6_2009a_segmented/Lexi-a/chopped/2sentence04a.wav,./,Lexi-a,May6_Lexi-a_2sentence04a.txt
+Audio_May6_2009a_segmented/Lexi-a/chopped/2sentence03a.wav,./,Lexi-a,May6_Lexi-a_2sentence03a.txt
+Audio_May6_2009a_segmented/Lexi-a/chopped/2sentence02a.wav,./,Lexi-a,May6_Lexi-a_2sentence02a.txt
+Audio_May6_2009a_segmented/Lexi-a/chopped/paraphrase02a.wav,./,Lexi-a,May6_Lexi-a_paraphrase02a.txt
+Audio_May6_2009a_segmented/Lexi-a/chopped/paraphrase01a.wav,./,Lexi-a,May6_Lexi-a_paraphrase01a.txt
+Audio_May6_2009a_segmented/Lexi-a/chopped/2sentence05a.wav,./,Lexi-a,May6_Lexi-a_2sentence05a.txt
+Audio_May6b_2009_segmented/Rose (a)/chopped/2sentence01.wav,./,Rose (a),May6b_Rose (a)_2sentence01.txt
+Audio_May6b_2009_segmented/Rose (a)/chopped/2sentence04.wav,./,Rose (a),May6b_Rose (a)_2sentence04.txt
+Audio_May6b_2009_segmented/Rose (a)/chopped/2sentence03.wav,./,Rose (a),May6b_Rose (a)_2sentence03.txt
+Audio_May6b_2009_segmented/Rose (a)/chopped/2sentence02.wav,./,Rose (a),May6b_Rose (a)_2sentence02.txt
+Audio_May6b_2009_segmented/Rose (a)/chopped/paraphrase02.wav,./,Rose (a),May6b_Rose (a)_paraphrase02.txt
+Audio_May6b_2009_segmented/Rose (a)/chopped/paraphrase01.wav,./,Rose (a),May6b_Rose (a)_paraphrase01.txt

@@ -1,0 +1,90 @@
+Audio_April08_2009_segmented/Michael(b)/chopped/2sentence01.wav,Audio_April08_2009_segmented/Michael(b)/2sentence01.lab
+Audio_April08_2009_segmented/Michael(b)/chopped/2sentence03_xx.wav,Audio_April08_2009_segmented/Michael(b)/2sentence03_xx.lab
+Audio_April08_2009_segmented/Michael(b)/chopped/2sentence02.wav,Audio_April08_2009_segmented/Michael(b)/2sentence02.lab
+Audio_April08_2009_segmented/Michael(b)/chopped/2sentence04_xx.wav,Audio_April08_2009_segmented/Michael(b)/2sentence04_xx.lab
+Audio_April08_2009_segmented/Michael(b)/chopped/paraphrase01.wav,Audio_April08_2009_segmented/Michael(b)/paraphrase01.lab
+Audio_April08_2009_segmented/Michael(b)/chopped/paraphrase02_xx.wav,Audio_April08_2009_segmented/Michael(b)/paraphrase02_xx.lab
+Audio_April08_2009_segmented/Julia(a)/chopped/2sentence01.wav,Audio_April08_2009_segmented/Julia(a)/2sentence01.lab
+Audio_April08_2009_segmented/Julia(a)/chopped/2sentence03_xx.wav,Audio_April08_2009_segmented/Julia(a)/2sentence03_xx.lab
+Audio_April08_2009_segmented/Julia(a)/chopped/2sentence02.wav,Audio_April08_2009_segmented/Julia(a)/2sentence02.lab
+Audio_April08_2009_segmented/Julia(a)/chopped/2sentence04_xx.wav,Audio_April08_2009_segmented/Julia(a)/2sentence04_xx.lab
+Audio_April08_2009_segmented/Julia(a)/chopped/paraphrase01.wav,Audio_April08_2009_segmented/Julia(a)/paraphrase01.lab
+Audio_April08_2009_segmented/Julia(a)/chopped/paraphrase02_xx.wav,Audio_April08_2009_segmented/Julia(a)/paraphrase02_xx.lab
+Audio_April23_2009_segmented/Dan(b)/chopped/2sentence01.wav,Audio_April23_2009_segmented/Dan(b)/2sentence01.lab
+Audio_April23_2009_segmented/Dan(b)/chopped/2sentence04.wav,Audio_April23_2009_segmented/Dan(b)/2sentence04.lab
+Audio_April23_2009_segmented/Dan(b)/chopped/2sentence03.wav,Audio_April23_2009_segmented/Dan(b)/2sentence03.lab
+Audio_April23_2009_segmented/Dan(b)/chopped/2sentence02.wav,Audio_April23_2009_segmented/Dan(b)/2sentence02.lab
+Audio_April23_2009_segmented/Dan(b)/chopped/paraphrase02.wav,Audio_April23_2009_segmented/Dan(b)/paraphrase02.lab
+Audio_April23_2009_segmented/Dan(b)/chopped/paraphrase01.wav,Audio_April23_2009_segmented/Dan(b)/paraphrase01.lab
+Audio_April23_2009_segmented/Stephanie(a)/chopped/2sentence01.wav,Audio_April23_2009_segmented/Stephanie(a)/2sentence01.lab
+Audio_April23_2009_segmented/Stephanie(a)/chopped/2sentence04.wav,Audio_April23_2009_segmented/Stephanie(a)/2sentence04.lab
+Audio_April23_2009_segmented/Stephanie(a)/chopped/2sentence03.wav,Audio_April23_2009_segmented/Stephanie(a)/2sentence03.lab
+Audio_April23_2009_segmented/Stephanie(a)/chopped/2sentence02.wav,Audio_April23_2009_segmented/Stephanie(a)/2sentence02.lab
+Audio_April23_2009_segmented/Stephanie(a)/chopped/paraphrase02.wav,Audio_April23_2009_segmented/Stephanie(a)/paraphrase02.lab
+Audio_April23_2009_segmented/Stephanie(a)/chopped/paraphrase01.wav,Audio_April23_2009_segmented/Stephanie(a)/paraphrase01.lab
+Audio_April30_2009_segmented/Kylie (a)/chopped/2sentence01.wav,Audio_April30_2009_segmented/Kylie (a)/2sentence01.lab
+Audio_April30_2009_segmented/Kylie (a)/chopped/2sentence04.wav,Audio_April30_2009_segmented/Kylie (a)/2sentence04.lab
+Audio_April30_2009_segmented/Kylie (a)/chopped/2sentence03.wav,Audio_April30_2009_segmented/Kylie (a)/2sentence03.lab
+Audio_April30_2009_segmented/Kylie (a)/chopped/2sentence02.wav,Audio_April30_2009_segmented/Kylie (a)/2sentence02.lab
+Audio_April30_2009_segmented/Kylie (a)/chopped/paraphrase02.wav,Audio_April30_2009_segmented/Kylie (a)/paraphrase02.lab
+Audio_April30_2009_segmented/Kylie (a)/chopped/paraphrase01.wav,Audio_April30_2009_segmented/Kylie (a)/paraphrase01.lab
+Audio_April30_2009_segmented/Johnathan (b)/chopped/2sentence01.wav,Audio_April30_2009_segmented/Johnathan (b)/2sentence01.lab
+Audio_April30_2009_segmented/Johnathan (b)/chopped/2sentence04.wav,Audio_April30_2009_segmented/Johnathan (b)/2sentence04.lab
+Audio_April30_2009_segmented/Johnathan (b)/chopped/2sentence03.wav,Audio_April30_2009_segmented/Johnathan (b)/2sentence03.lab
+Audio_April30_2009_segmented/Johnathan (b)/chopped/2sentence02.wav,Audio_April30_2009_segmented/Johnathan (b)/2sentence02.lab
+Audio_April30_2009_segmented/Johnathan (b)/chopped/paraphrase02.wav,Audio_April30_2009_segmented/Johnathan (b)/paraphrase02.lab
+Audio_April30_2009_segmented/Johnathan (b)/chopped/paraphrase01.wav,Audio_April30_2009_segmented/Johnathan (b)/paraphrase01.lab
+Audio_March05_2009_segmented/Rina(a)/chopped/2sentence01.wav,Audio_March05_2009_segmented/Rina(a)/2sentence01.lab
+Audio_March05_2009_segmented/Rina(a)/chopped/2sentence04.wav,Audio_March05_2009_segmented/Rina(a)/2sentence04.lab
+Audio_March05_2009_segmented/Rina(a)/chopped/2sentence03.wav,Audio_March05_2009_segmented/Rina(a)/2sentence03.lab
+Audio_March05_2009_segmented/Rina(a)/chopped/2sentence02.wav,Audio_March05_2009_segmented/Rina(a)/2sentence02.lab
+Audio_March05_2009_segmented/Rina(a)/chopped/paraphrase02.wav,Audio_March05_2009_segmented/Rina(a)/paraphrase02.lab
+Audio_March05_2009_segmented/Rina(a)/chopped/paraphrase01.wav,Audio_March05_2009_segmented/Rina(a)/paraphrase01.lab
+Audio_March05_2009_segmented/Karan(b)/chopped/2sentence01.wav,Audio_March05_2009_segmented/Karan(b)/2sentence01.lab
+Audio_March05_2009_segmented/Karan(b)/chopped/2sentence04.wav,Audio_March05_2009_segmented/Karan(b)/2sentence04.lab
+Audio_March05_2009_segmented/Karan(b)/chopped/2sentence03.wav,Audio_March05_2009_segmented/Karan(b)/2sentence03.lab
+Audio_March05_2009_segmented/Karan(b)/chopped/2sentence02.wav,Audio_March05_2009_segmented/Karan(b)/2sentence02.lab
+Audio_March05_2009_segmented/Karan(b)/chopped/paraphrase02.wav,Audio_March05_2009_segmented/Karan(b)/paraphrase02.lab
+Audio_March05_2009_segmented/Karan(b)/chopped/paraphrase01.wav,Audio_March05_2009_segmented/Karan(b)/paraphrase01.lab
+Audio_May12_2009_segmented/Lisa(a)/chopped/paraphrase03.wav,Audio_May12_2009_segmented/Lisa(a)/paraphrase03.lab
+Audio_May12_2009_segmented/Lisa(a)/chopped/2sentence01.wav,Audio_May12_2009_segmented/Lisa(a)/2sentence01.lab
+Audio_May12_2009_segmented/Lisa(a)/chopped/2sentence04.wav,Audio_May12_2009_segmented/Lisa(a)/2sentence04.lab
+Audio_May12_2009_segmented/Lisa(a)/chopped/2sentence03.wav,Audio_May12_2009_segmented/Lisa(a)/2sentence03.lab
+Audio_May12_2009_segmented/Lisa(a)/chopped/2sentence02.wav,Audio_May12_2009_segmented/Lisa(a)/2sentence02.lab
+Audio_May12_2009_segmented/Lisa(a)/chopped/paraphrase02.wav,Audio_May12_2009_segmented/Lisa(a)/paraphrase02.lab
+Audio_May12_2009_segmented/Lisa(a)/chopped/paraphrase01.wav,Audio_May12_2009_segmented/Lisa(a)/paraphrase01.lab
+Audio_May12_2009_segmented/Sandy(b)/chopped/paraphrase03.wav,Audio_May12_2009_segmented/Sandy(b)/paraphrase03.lab
+Audio_May12_2009_segmented/Sandy(b)/chopped/2sentence01.wav,Audio_May12_2009_segmented/Sandy(b)/2sentence01.lab
+Audio_May12_2009_segmented/Sandy(b)/chopped/2sentence04.wav,Audio_May12_2009_segmented/Sandy(b)/2sentence04.lab
+Audio_May12_2009_segmented/Sandy(b)/chopped/2sentence03.wav,Audio_May12_2009_segmented/Sandy(b)/2sentence03.lab
+Audio_May12_2009_segmented/Sandy(b)/chopped/2sentence02.wav,Audio_May12_2009_segmented/Sandy(b)/2sentence02.lab
+Audio_May12_2009_segmented/Sandy(b)/chopped/paraphrase02.wav,Audio_May12_2009_segmented/Sandy(b)/paraphrase02.lab
+Audio_May12_2009_segmented/Sandy(b)/chopped/paraphrase01.wav,Audio_May12_2009_segmented/Sandy(b)/paraphrase01.lab
+Audio_May13_2009_segmented/Thomas (b)/chopped/2sentence01.wav,Audio_May13_2009_segmented/Thomas (b)/2sentence01.lab
+Audio_May13_2009_segmented/Thomas (b)/chopped/2sentence02.wav,Audio_May13_2009_segmented/Thomas (b)/2sentence02.lab
+Audio_May13_2009_segmented/Thomas (b)/chopped/paraphrase02.wav,Audio_May13_2009_segmented/Thomas (b)/paraphrase02.lab
+Audio_May13_2009_segmented/Thomas (b)/chopped/paraphrase01.wav,Audio_May13_2009_segmented/Thomas (b)/paraphrase01.lab
+Audio_May13_2009_segmented/Natalie (b)/chopped/2sentence04.wav,Audio_May13_2009_segmented/Natalie (b)/2sentence04.lab
+Audio_May13_2009_segmented/Natalie (b)/chopped/2sentence03.wav,Audio_May13_2009_segmented/Natalie (b)/2sentence03.lab
+Audio_May13_2009_segmented/Rachel (a)/chopped/2sentence01.wav,Audio_May13_2009_segmented/Rachel (a)/2sentence01.lab
+Audio_May13_2009_segmented/Rachel (a)/chopped/2sentence04.wav,Audio_May13_2009_segmented/Rachel (a)/2sentence04.lab
+Audio_May13_2009_segmented/Rachel (a)/chopped/2sentence03.wav,Audio_May13_2009_segmented/Rachel (a)/2sentence03.lab
+Audio_May13_2009_segmented/Rachel (a)/chopped/2sentence02.wav,Audio_May13_2009_segmented/Rachel (a)/2sentence02.lab
+Audio_May13_2009_segmented/Rachel (a)/chopped/paraphrase02.wav,Audio_May13_2009_segmented/Rachel (a)/paraphrase02.lab
+Audio_May13_2009_segmented/Rachel (a)/chopped/paraphrase01.wav,Audio_May13_2009_segmented/Rachel (a)/paraphrase01.lab
+Audio_May6_2009a_segmented/Mark-b/chopped/paraphrase01b.wav,Audio_May6_2009a_segmented/Mark-b/paraphrase01b.lab
+Audio_May6_2009a_segmented/Mark-b/chopped/2sentence02b.wav,Audio_May6_2009a_segmented/Mark-b/2sentence02b.lab
+Audio_May6_2009a_segmented/Mark-b/chopped/2sentence01b.wav,Audio_May6_2009a_segmented/Mark-b/2sentence01b.lab
+Audio_May6_2009a_segmented/Lexi-a/chopped/2sentence01a.wav,Audio_May6_2009a_segmented/Lexi-a/2sentence01a.lab
+Audio_May6_2009a_segmented/Lexi-a/chopped/2sentence04a.wav,Audio_May6_2009a_segmented/Lexi-a/2sentence04a.lab
+Audio_May6_2009a_segmented/Lexi-a/chopped/2sentence03a.wav,Audio_May6_2009a_segmented/Lexi-a/2sentence03a.lab
+Audio_May6_2009a_segmented/Lexi-a/chopped/2sentence02a.wav,Audio_May6_2009a_segmented/Lexi-a/2sentence02a.lab
+Audio_May6_2009a_segmented/Lexi-a/chopped/paraphrase02a.wav,Audio_May6_2009a_segmented/Lexi-a/paraphrase02a.lab
+Audio_May6_2009a_segmented/Lexi-a/chopped/paraphrase01a.wav,Audio_May6_2009a_segmented/Lexi-a/paraphrase01a.lab
+Audio_May6_2009a_segmented/Lexi-a/chopped/2sentence05a.wav,Audio_May6_2009a_segmented/Lexi-a/2sentence05a.lab
+Audio_May6b_2009_segmented/Rose (a)/chopped/2sentence01.wav,Audio_May6b_2009_segmented/Rose (a)/2sentence01.lab
+Audio_May6b_2009_segmented/Rose (a)/chopped/2sentence04.wav,Audio_May6b_2009_segmented/Rose (a)/2sentence04.lab
+Audio_May6b_2009_segmented/Rose (a)/chopped/2sentence03.wav,Audio_May6b_2009_segmented/Rose (a)/2sentence03.lab
+Audio_May6b_2009_segmented/Rose (a)/chopped/2sentence02.wav,Audio_May6b_2009_segmented/Rose (a)/2sentence02.lab
+Audio_May6b_2009_segmented/Rose (a)/chopped/paraphrase02.wav,Audio_May6b_2009_segmented/Rose (a)/paraphrase02.lab
+Audio_May6b_2009_segmented/Rose (a)/chopped/paraphrase01.wav,Audio_May6b_2009_segmented/Rose (a)/paraphrase01.lab

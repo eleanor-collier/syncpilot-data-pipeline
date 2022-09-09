@@ -14,8 +14,8 @@ save_data_here <- "/Volumes/GoogleDrive/My Drive/UCR/UCR SNL/Research Projects/S
 ### Load data ----
 # Get file names
 raw_files <- list.files(path = get_data_here, full.names = T, recursive = T)
-raw_files_valence <- raw_files[str_detect(test, 'prosody_v')]
-raw_files_arousal <- raw_files[str_detect(test, 'prosody_a')]
+raw_files_valence <- raw_files[str_detect(raw_files, 'prosody_v')]
+raw_files_arousal <- raw_files[str_detect(raw_files, 'prosody_a')]
 
 # Append data files to each other
 valence_ratings_raw <- data.frame()
