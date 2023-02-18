@@ -1,6 +1,7 @@
 
 old/
 get_transcripts/get_sonix_transcriptions.ipynb
+get_emotional_language/get_emotion_trajectories.r
 get_text_vividness/DAAP09/Project/DATA/
 get_text_vividness/DAAP09/Project/*.txt
 get_text_vividness/DAAP11/
