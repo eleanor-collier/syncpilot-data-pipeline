@@ -9,3 +9,5 @@ get_vocal_arousal/relevant_papers/
 get_vocal_arousal/label_neutral_speech/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+.Rhistory
+*/.Rhistory/*
