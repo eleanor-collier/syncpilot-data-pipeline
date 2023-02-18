@@ -1,7 +1,11 @@
 
 old/
 get_transcripts/get_sonix_transcriptions.ipynb
-get_text_vividness/DAAP09/
+get_text_vividness/DAAP09/Project/DATA/
+get_text_vividness/DAAP09/Project/*.txt
 get_text_vividness/DAAP11/
+get_vocal_arousal/old/
+get_vocal_arousal/relevant_papers/
+get_vocal_arousal/label_neutral_speech/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*

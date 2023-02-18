@@ -3,15 +3,18 @@
 # 1/6/2022
 #########################################################################################
 
-#Set up workspace
+# Set up workspace
 library(tidyverse)
 
-get_data_here   <- "~/Documents/DAAP09/syncpilot_by_disclosure/DATA/"
-save_data_here  <- "/Volumes/GoogleDrive/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/Data/processed/mean_by_disclosure/"
+# get_data_here   <- "~/Documents/DAAP09/syncpilot_by_disclosure/DATA/"
+get_data_here <- "/Users/Eleanor2/Library/CloudStorage/GoogleDrive-airfire246@gmail.com/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/processing_pipeline/get_text_vividness/DAAP09/Project/DATA/"
+save_data_here  <- "/Users/Eleanor2/Library/CloudStorage/GoogleDrive-airfire246@gmail.com/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/Data/processed/mean_by_disclosure/"
+
 
 #########################################################################################
 # Load data
-text_vividness_raw <- read_csv(paste0(get_data_here, "syncpilot_by_disclosureAG2.csv"))
+#text_vividness_raw <- read_csv(paste0(get_data_here, "syncpilot_by_disclosureAG2.csv"))
+text_vividness_raw <- read_csv(paste0(get_data_here, "ProjectAG2.csv"))
 
 # Process data
 text_vividness <- text_vividness_raw %>% 
@@ -33,6 +36,5 @@ text_vividness <- text_vividness_raw %>%
   arrange(ID, disclosure) %>% 
   select(ID, disclosure, vividness, vividness_aboveNeu, sensory_somatic)
   
-
 # Save data
 write_csv(text_vividness, paste0(save_data_here, "transcripts_DAAP.csv"))

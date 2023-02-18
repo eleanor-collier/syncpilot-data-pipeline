@@ -13,15 +13,18 @@ library(ggplot2)
 library(lmerTest)
 
 # Load custom functions
-setwd("/Volumes/GoogleDrive/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/")
+setwd("/Users/Eleanor2/Library/CloudStorage/GoogleDrive-airfire246@gmail.com/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/")
 source("helper_functions/stdCoef.R")
 
 # Load data
-get_data_here  <- "/Volumes/GoogleDrive/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/Data/processed/mean_by_disclosure/"
-save_data_here <- "/Volumes/GoogleDrive/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/Data/processed/mean_by_disclosure/"
+get_data_here  <- "/Users/Eleanor2/Library/CloudStorage/GoogleDrive-airfire246@gmail.com/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/Data/processed/mean_by_disclosure/"
+save_data_here <- "/Users/Eleanor2/Library/CloudStorage/GoogleDrive-airfire246@gmail.com/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/Data/processed/mean_by_disclosure/"
 
-#vader_scores <- read_csv(paste0(get_data_here, "transcripts_vader.csv")) %>% distinct()
-transcripts <- read_csv(paste0(get_data_here, "transcripts.csv")) %>% distinct()
+transcripts <- read_csv(paste0(get_data_here, "transcripts.csv")) %>% distinct() %>% arrange(ID, disclosure)
+# transcripts <- read_csv(paste0(get_data_here, "out_of_use/transcripts.csv")) %>% distinct() %>% arrange(ID, disclosure)
+
+# problem_IDs <- c(1, 2, 9, 29, 30, 33, 34, 39, 40, 93, 94, 129, 147, 148, 149, 150, 179, 180)
+problem_IDs <- c(9, 34, 39, 40, 129)
 
 #########################################################################################
 ## Chunk disclosures into an equal number of windows ----
@@ -103,8 +106,9 @@ vader_scores_centered <- transcripts_by_window_vader %>%
     arousal_centered = scale(vader_arousal, center=T, scale=F)
   ) %>% 
   ungroup()
-  
 
+#########################################################################################
+## Format VADER scores for analysis ----
 # Transform data to wide format
 valence_centered_wide <- vader_scores_centered %>% 
   select(ID, disclosure, window, valence_centered) %>% 
@@ -127,12 +131,34 @@ arousal_centered_wide <- vader_scores_centered %>%
   select(ID, disclosure, storyID, everything())
 
 # Save data
-write_csv(valence_centered_wide, paste0(save_data_here, "valence_trajectories_prep.csv"))
-write_csv(arousal_centered_wide, paste0(save_data_here, "arousal_trajectories_prep.csv"))
+# write.csv(valence_centered_wide, paste0(save_data_here, "valence_trajectories_prep.csv"), row.names = F)
+# write.csv(arousal_centered_wide, paste0(save_data_here, "arousal_trajectories_prep.csv"), row.names = F)
 
 # Load data (instead of running the above code again, simply load the data to save time)
-valence_centered_wide <- read_csv(paste0(save_data_here, "valence_trajectories_prep.csv"))
+# old_valence_centered_wide <- read_csv(paste0(save_data_here, "out_of_use/valence_trajectories_prep.csv"))
+valence_centered_wide <- read_csv(paste0(save_data_here, "valence_trajectories_prep.csv")) %>% arrange(ID, disclosure)
 arousal_centered_wide <- read_csv(paste0(save_data_here, "arousal_trajectories_prep.csv"))
+
+# # Compare new data to old for troubleshooting purposes
+# old_stories <- read_csv(paste0(save_data_here, "out_of_use/valence_trajectories_prep.csv")) %>% 
+#   select(ID, disclosure) %>% unique()
+# new_stories <- read_csv(paste0(save_data_here, "valence_trajectories_prep.csv")) %>% 
+#   select(ID, disclosure) %>% unique()
+# test <- setdiff(new_stories, old_stories)
+
+# Filter out problem participants
+valence_centered_wide <- valence_centered_wide %>% filter(!(ID %in% problem_IDs))
+# valence_centered_wide <- valence_centered_wide %>% filter(ID <= 152)
+# valence_centered_wide <- valence_centered_wide %>%
+#   mutate(ID_x=ID) %>%
+#   group_by(ID_x) %>%
+#   filter(disclosure %in% filter(old_stories, ID==unique(ID_x))$disclosure) %>%
+#   ungroup() %>%
+#   select(-ID_x)
+
+# # Check difference between old data and new subset of selected stories
+# setdiff(valence_centered_wide %>% select(ID, disclosure), old_stories)
+# setdiff(old_stories, valence_centered_wide %>% select(ID, disclosure))
 
 # Make dataframe with emotion scores x window only
 valence_by_window <- select(valence_centered_wide, -c(ID:disclosure, storyID))
@@ -140,13 +166,14 @@ arousal_by_window <- select(arousal_centered_wide, -c(ID:disclosure, storyID))
 
 #########################################################################################
 ## Run Hierarchical Cluster Analysis on Valence ----
+# dist_mat <- dist(valence_by_window, method = 'euclidean')
 dist_mat <- dist(valence_by_window, method = 'manhattan')
 polarity_hclust <- hclust(dist_mat, method = 'ward.D')
+# plot(polarity_hclust) # dendrogram
 
 # Determine ideal number of clusters
-plot(polarity_hclust) # dendrogram
-fviz_nbclust(valence_by_window, FUN = hcut, method = "wss") # Elbow plot
-fviz_nbclust(valence_by_window, FUN = hcut, method = "silhouette") # Silhouette plot
+# fviz_nbclust(valence_by_window, FUN = hcut, method = "wss", diss = dist_mat) # Elbow plot
+# fviz_nbclust(valence_by_window, FUN = hcut, method = "silhouette", diss = dist_mat) # Silhouette plot
 
 # Cut tree
 clusters <- cutree(polarity_hclust, k = 2)
@@ -215,7 +242,6 @@ valence_diffs <- valence_centered_wide %>%
 # Model trajectories with a cubic polynomial function
 library(lmerTest)
 
-
 valence_by_window_clustered <- valence_centered_wide %>% 
   mutate(storyID = as.factor(1:nrow(.))) %>% 
   mutate("valence_trajectory" = paste0("cluster", clusters)) %>% 
@@ -239,7 +265,7 @@ valence_cluster2_mdl <- lmer(
 )
 summary(valence_cluster2_mdl)
 cbind(stdCoef.merMod(valence_cluster2_mdl), round(coef(summary(valence_cluster2_mdl)), 3))
-sjPlot::tab_model(valence_cluster2_mdl)
+# sjPlot::tab_model(valence_cluster2_mdl)
 
 # Extract each story's deviation from the average cubic coefficient
 valence_trajectories <- bind_rows(
@@ -254,7 +280,7 @@ valence_trajectories <- bind_rows(
   select(ID, disclosure, storyID, valence_trajectory, everything())
 
 # Save data
-write_csv(valence_trajectories, paste0(save_data_here, "valence_trajectories.csv"))
+write_csv(valence_trajectories, paste0(save_data_here, "valence_trajectories_manhattan.csv"))
 
 #########################################################################################
 ## Run Hierarchical Cluster Analysis on Arousal ----

@@ -4,12 +4,14 @@
 # 1/6/2022
 #########################################################################################
 
+# NOTE: Run presimdaap (not predaap), then simdaap (not daap) to get scores for single speakers
+
 #Set up workspace
 library(tidyverse)
 
-get_data_here  <- "/Volumes/GoogleDrive/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/Data/processed/mean_by_disclosure/"
-save_data_here  <- "~/Documents/DAAP09/syncpilot_by_disclosure/"
-#save_data_here <- "/Volumes/GoogleDrive/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/processing_pipeline/get_text_vividness/DAAP09/Project/"
+get_data_here  <- "/Users/Eleanor2/Library/CloudStorage/GoogleDrive-airfire246@gmail.com/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/Data/processed/mean_by_disclosure/"
+#save_data_here  <- "~/Documents/DAAP09/syncpilot_by_disclosure/"
+save_data_here <- "/Users/Eleanor2/Library/CloudStorage/GoogleDrive-airfire246@gmail.com/My Drive/UCR/UCR SNL/Research Projects/SyncDisclosures/Pilot/Analysis/processing_pipeline/get_text_vividness/DAAP09/Project/"
 
 #########################################################################################
 #Load data
@@ -30,3 +32,4 @@ for (ID_val in unique(transcripts$ID)) {
     }
   }
 }
+
