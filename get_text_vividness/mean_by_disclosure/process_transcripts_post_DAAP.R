@@ -27,7 +27,7 @@ text_vividness <- text_vividness_raw %>%
     vividness_aboveNeu = MHWRAD,
     sensory_somatic = MSenS
   ) %>% 
-  # Generate subject ID, disclosure, & time columns from file name column
+  # Generate subject ID & disclosure columns from file name column
   mutate(
     ID = str_extract(File, "(?<=P)([:digit:]+)"),
     disclosure = str_extract(File, "(?<=D)([:alnum:[^.]+]+)")
