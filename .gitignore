@@ -8,6 +8,7 @@ get_text_vividness/DAAP11/
 get_vocal_arousal/old/
 get_vocal_arousal/relevant_papers/
 get_vocal_arousal/label_neutral_speech/
+get_linguistic_similarity/relevant_papers/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 .Rhistory
