@@ -66,6 +66,11 @@ write_csv(CCR_all_output_pos, paste0(save_data_here,"/CCR_tmp/CCR_output_pos_raw
 write_csv(CCR_all_output_neu, paste0(save_data_here,"/CCR_tmp/CCR_output_neu_raw.csv"))
 write_csv(CCR_all_output_neg, paste0(save_data_here,"/CCR_tmp/CCR_output_neg_raw.csv"))
 
+# Load saved csvs
+CCR_all_output_pos <- read_csv(paste0(save_data_here,"/CCR_tmp/CCR_output_pos_raw.csv"))
+CCR_all_output_neu <- read_csv(paste0(save_data_here,"/CCR_tmp/CCR_output_neu_raw.csv"))
+CCR_all_output_neg <- read_csv(paste0(save_data_here,"/CCR_tmp/CCR_output_neg_raw.csv"))
+
 ## Convert data to workable format for calculating means ----
 # Positive disclosures
 CCR_long_pos <- CCR_all_output_pos %>% 

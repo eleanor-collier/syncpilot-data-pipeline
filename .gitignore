@@ -9,6 +9,7 @@ get_vocal_arousal/old/
 get_vocal_arousal/relevant_papers/
 get_vocal_arousal/label_neutral_speech/
 get_linguistic_similarity/relevant_papers/
+get_linguistic_similarity/get_topics_using_chatgpt.ipynb
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 .Rhistory
